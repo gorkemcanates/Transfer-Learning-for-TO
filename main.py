@@ -21,8 +21,8 @@ class Parameters:
         self.experiment = 'TOPO/'
         self.file = 'TL_VGG16-Unet_init5_ep15_data1e3/'
         self.load_file = 'VGG16-Unet/'
-        self.train_data_dir = 'E:\Gorkem Can Ates_old\TOPO DATA\data/'
-        self.train_target_dir = 'E:\Gorkem Can Ates_old\TOPO DATA/target'
+        self.train_data_dir = 'TOPO DATA/data/'
+        self.train_target_dir = 'TOPO DATA/target'
         self.LOGDIR = f'runs/' + self.experiment + self.file
         self.FIG_PATH = 'RESULTS/' + self.experiment + self.file + 'images/'
         self.result_SAVEPATH = 'RESULTS/' + self.experiment + self.file + 'metrics/'

@@ -126,5 +126,4 @@ class VGG_Unet(nn.Module):
         x = torch.cat([x, x1], dim=1)
         x = self.decode6(x)
         x = self.output(x)
-
         return x

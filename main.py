@@ -19,7 +19,7 @@ warnings.filterwarnings("ignore")
 class Parameters:
     def __init__(self):
         self.experiment = 'TOPO/'
-        self.file = 'TL_VGG16-Unet_init5_ep15_data1e3/'
+        self.file = 'TL_VGG16-Unet_init5_ep15_data1e4/'
         self.load_file = 'VGG16-Unet/'
         self.train_data_dir = 'TOPO DATA/data/'
         self.train_target_dir = 'TOPO DATA/target'
@@ -53,7 +53,7 @@ class HyperParameters:
         self.NUM_CLASSES = 1
         self.train_batch_size = 8
         self.test_batch_size = 8
-        self.TOTAL_DATA = 1000
+        self.TOTAL_DATA = 10000
         self.NORM = 'gn'
         self.METRIC_CONDITION = 'max'
 

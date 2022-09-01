@@ -59,7 +59,7 @@ class HyperParameters:
 
 
 
-class MAIN:
+class TOPOTrainer:
     def __init__(self):
         self.params = Parameters()
         self.hyperparams = HyperParameters()
@@ -138,7 +138,7 @@ class MAIN:
 
 
 if __name__ == '__main__':
-    trainer = MAIN()
+    trainer = TOPOTrainer()
     trainer.run()
 
 

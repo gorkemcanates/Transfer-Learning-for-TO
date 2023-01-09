@@ -71,7 +71,7 @@ class MainTrainer:
                 self.loop = tqdm(enumerate(self.train_loader),
                                  total=len(self.train_loader),
                                  leave=False)
-                if epoch + 1 >= self.hyperparams.FINETUNE_EPOCH and self.FINETUNE_FLAG is True:
+                if epoch + 1 >= self.hyperparams.FINETUNE_EPOCH and self.FINETUNE_FLAG:
                     self.adjust_gradients()
                     self.adjust_lr()
                     print('\nEncoder is active.')

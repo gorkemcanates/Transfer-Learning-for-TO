@@ -1,3 +1,10 @@
+# --------------------------------------------------------
+# Transfer Learning for Topology Optimization
+# Copyright (c) 2023 Gorkem Can Ates
+# Licensed under The MIT License [see LICENSE for details]
+# Written by Gorkem Can Ates (gca45@miami.edu)
+# --------------------------------------------------------
+
 import os
 import torch
 from torch.utils.tensorboard import SummaryWriter
